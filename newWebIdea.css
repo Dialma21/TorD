@@ -1,0 +1,134 @@
+.alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #fff 0%, #a1d4b3 100% );
+    min-height: 100vh;
+    font-family: 'Alata' ,Arial , Helvetica, sans-serif;
+}
+
+.header-text{
+    font-family: 'Alata' ,Arial , Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+a{
+    font-family: 'Alata' ,Arial , Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+#title_text{
+    font-size: 3em;
+}
+
+#underscore_text{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+header{
+    padding: 10px 0;
+    background-image: linear-gradient(to top, #2e5c4f 0%, #000 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.header-hr{
+    width: 90%;
+    border: 1px solid #fff;
+}
+
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #2e5c4f;
+}
+
+.nav-bar-li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-btn{
+    padding: 10px;
+    min-width: 15vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Alata' ,Arial , Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.nav-bar-btn:hover{
+    background-color: #f0e78e; /* MAYBE CHANGE TO #3a785a */ 
+    text-decoration: underline;
+    border-radius: 10px 10px 0 0;
+    color: #000; /* MAYBE CHANGE TO #fff */
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    background-color: #2e5c4f;
+    color: #fff;
+}
+
+.main-div{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-p{
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.text-p{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.main-image{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 5px;
+    margin-right: 15px;
+    min-width: 140px;
+}
+
+img{
+    width: 100%;
+}
+
+
+  
+  
